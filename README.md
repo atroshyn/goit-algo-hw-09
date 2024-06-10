@@ -34,6 +34,7 @@ def find_coins_greedy(amount):
 # Приклад використання
 amount = 113
 print("Жадібний алгоритм:", find_coins_greedy(amount))  # {50: 2, 10: 1, 2: 1, 1: 1}
+```
 
 ### 2. Динамічне програмування
 
@@ -64,3 +65,4 @@ def find_min_coins(amount):
 # Приклад використання
 amount = 113
 print("Динамічне програмування:", find_min_coins(amount))  # {50: 2, 10: 1, 2: 1, 1: 1}
+```
